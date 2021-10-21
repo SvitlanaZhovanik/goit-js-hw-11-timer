@@ -1,0 +1,24 @@
+body {
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(5,5,61,1) 48%, rgba(0,255,239,1) 100%);
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.field {
+    margin-right: 20px;
+    font-size: 40px
+
+}
+.value {
+    margin-right: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    color: #07f7cf;
+    text-shadow: 4px 1px 8px rgba(69, 226, 195, 1);
+}
+.label {
+    color: #fff; 
+    font-size: 30px;   
+}
